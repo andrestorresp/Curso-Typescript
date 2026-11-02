@@ -54,3 +54,26 @@ const resuelto = precio
 
 console.log(resuelto);
 // Respuesta: [80, 50, 120]
+
+// Reto 10 -
+const preci: number[] = [10, 20, 30];
+
+const totalPreci = precios.reduce(
+  (acumulador, precio) => acumulador + precio,
+  0,
+);
+
+console.log(total);
+// respuesta es 60, porque reduce suma cada uno de los elementos en el arreglo
+
+//Reto 11
+//prueba de que el acumulador no comienza en 0
+const prec: number[] = [5, 10, 15];
+
+const totalPrec = precios.reduce(
+  (acumulador, precio) => acumulador + precio,
+  100,
+);
+
+console.log(total);
+//respuesta es 130
