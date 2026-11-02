@@ -1,0 +1,36 @@
+
+# ==============================
+# Dependencias
+# ==============================
+node_modules/
+
+# ==============================
+# Archivos de compilación
+# ==============================
+dist/
+*.tsbuildinfo
+
+# Archivos JavaScript generados actualmente en la raíz
+/script.js
+/script.js.map
+/script.d.ts
+/script.d.ts.map
+
+# ==============================
+# Variables de entorno
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Archivos del sistema operativo
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Archivos temporales de editores
+# ==============================
+.vscode/
+.idea/
